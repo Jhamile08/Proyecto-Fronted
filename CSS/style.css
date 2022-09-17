@@ -1,0 +1,313 @@
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.encabezado{
+    display: flex;
+}
+.logo{
+    width: 145.54px;
+    height: 23.74px;
+}
+.navegacion{
+    text-decoration: none;
+    margin: 5px;
+    font-family: 'Be Vietnam';
+    color: #242E52;
+}
+.boton1{
+     background-color: #8B48BF;
+     color: #FFFFFF;
+     font-size: 12px;
+     border: none;
+     border-radius: 20px;
+     padding: 10px;
+     width: 110px;
+     box-shadow: 0px 4px 7px 0px #00000040;
+}
+.botonn{
+        background-color: #8B48BF;
+        color: #FFFFFF;
+        font-size: 12px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        width: 110px;
+        box-shadow: 0px 4px 7px 0px #00000040;
+}
+.contenedorp1{
+     display: flex;
+     padding: 100px 100px;
+}
+.contenedorp2{
+    display: flex;
+    padding: 100px 100px;
+}
+.contenedors{
+    display: flex;
+    
+}
+.hijos-columna{
+    display: flex;
+    flex-direction: column;
+}
+.columnab{
+    display: flex;
+    flex-direction: column;
+}
+.columnabb{
+    display: flex;
+    flex-direction: row;
+   
+}
+.titulo1{
+    font-size: 50px;
+    color: #232C50;
+    font-family: 'Be Vietnam';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.grafica{
+    width: 80%;
+    height: 90%;
+}
+.numero{
+    background-color: #8B48BF;
+    padding: 8px 10px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+}
+.titulo3{
+     color: #232851;
+     font-weight: bold;
+     font-size: 30px;
+}
+.parrafo3{
+    color: black;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-columna{
+    color: #323851;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.parrafos-columna{
+    color: #B3B2B7;
+
+}
+.titulo2{
+    color: #242E53;
+    font-weight: bold;
+    text-align: center;
+    font-size: 35px;
+    margin: 80px;
+}
+.contenedor-perfiles{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+.perfiles{
+    background-color: #FAFAFA;
+    margin: 0px;
+    min-height: 220px;
+}
+.perfil{
+    text-align: center;
+    margin: 20px; 
+    position: relative;
+    bottom: 60px;
+}
+
+.titulo-perfil{
+    color: #3F4868;
+}
+.parrafo-perfil{
+     color: #B9B9C1;
+}
+.boton2{
+     display: flex;
+     justify-content: center;
+     margin: 20px;
+}
+.frase{
+    background-color: #8B48BF;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+.letra-frase{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.boton3{
+    background-color: #FFFFFF;
+    color:  #8B48BF;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 0px 4px 7px 0px #00000040;
+}
+.pie{
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    flex-wrap: wrap;
+}
+.logos{
+     display: flex;
+     flex-direction: column;
+
+}
+.tamaño-logos{
+    width: 120px;
+    height: 20px;
+    margin:20px;
+}
+.navegadors{
+    display: flex;
+    flex-direction: column;
+}
+.navegadores2{
+    text-decoration: none;
+    margin: 5px;
+    font-family: 'Be Vietnam';
+    color: #FFFFFF;
+}
+.columnass{
+    
+}
+.diseño-form{
+    background-color: #FFFFFF;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    height: 20px;  
+    margin: 10px;
+}
+.diseño-boton{
+    background-color: #8B48BF;
+    color: white;
+    font-size: 12px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 55px;
+    height: 40px;  
+}
+.columnass-2{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.frase1{
+    color: #8C8C94;
+    margin-top: 70px;
+}
+.ultimo{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width: 425px){
+    .encabezado{
+        
+        
+    }
+    header{
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    header nav{
+        display: none;
+    }
+    .logo{
+        
+    }
+    .icono{
+        font-size: 40px;
+    }
+    .botonn{
+        display: none;
+    }
+    .contenedorp1{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px;
+    }
+    .grafica{
+        width: 300px;
+        height: 300px;
+    }
+    .div1{
+        text-align: center;
+    }
+    .div2{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .color-morado{
+        background-color: 
+    }
+    .contenedorp2{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .columnabb{
+        background-color: rgba(139, 72, 191, 0.3);
+    }
+    .perfiles{
+        flex-direction: column;
+    }
+    .contenedor-perfiles{
+        display: flex;
+        flex-direction: column;
+    }
+    .contenedorpp{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+@media ( min-width: 426px ){
+    .icono{
+         display: none;
+    }
+}
+@media (max-width: 382px) {
+    .frase{
+        padding: 0px 30px;
+    }
+    .pie{
+        padding: 0px 30px;
+    }
+}
